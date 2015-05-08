@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Kenson - About Us</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //     Retina Bookmark Icon     // -->
+<!-- ////////////////////////////////// -->
+<link rel="apple-touch-icon-precomposed" href="apple-icon.png"/>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Stylesheets Files       // -->
+<!-- ////////////////////////////////// -->
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/framework.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/layerslider.css"/>
+<link rel="stylesheet" href="css/media.css"/>
+<link rel="stylesheet" href="css/noscript.css" media="screen,all" id="noscript"/>
+  
+<!-- ////////////////////////////////// -->
+<!-- //     Google Webfont Files     // -->
+<!-- ////////////////////////////////// -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700"/>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400"/>
+
+<!-- ////////////////////////////////// -->
+<!-- //        Favicon Files         // -->
+<!-- ////////////////////////////////// -->
+<link rel="shortcut icon" href="images/favicon.ico"/>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.easing-1.3.min.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/tinynav.min.js"></script>
+<script src="js/jquery.fancybox.js?v=2.0.6"></script>
+<script src="js/jquery.fancybox-media.js?v=1.0.3"></script>
+<script src="js/jquery.ui.totop.min.js"></script>
+<script src="js/ddaccordion.js"></script>
+<script src="js/jquery.twitter.js"></script>
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/faq-functions.js" ></script>
+<script src="js/theme-functions.js"></script>
+<script src="js/jquery.retina.js"></script>
+<script>
+$(document).ready(function() {
+//Retina Image
+$('img.retina').retina('@2x');
+	
+//Footer Equal Height
+equalHeight($(".footer-column, .footer-logo"));
+});
+
+function equalHeight(group) {
+  tallest = 0;
+  group.each(function() {
+	  thisHeight = $(this).height();
+	  if(thisHeight > tallest) {
+		  tallest = thisHeight;
+	  }
+  });
+  group.height(tallest);
+}
+</script>
+
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+
+<div id="main-wrapper">
+
+	<!-- header start here -->
+	<header>
+    	<!-- logo start here -->
+    	<div id="logo">
+        	<a href="index.html"><img src="images/logo.png" alt="main-logo" class="retina"/></a>
+        </div>
+        <!-- logo end here -->
+        
+        <!-- top information start here -->
+        <div id="top-info">
+
+        </div>
+        <!-- top information end here -->
+        
+        <div id="mainmenu-wrapper">
+        	<!-- mainmenu start here -->
+                       <nav id="mainmenu">
+                <ul id="menu">
+                    <li class="dropdown"><a href="index.html">Home</a>
+                        <ul> 
+                            <li><a href="#"><span>-</span> Item</a></li>
+                            <li><a href="#"><span>-</span> Item</a></li>
+                            <li><a href="#"><span>-</span> Item</a></li>    	
+                        </ul>
+                    </li>
+                    <li class="selected"><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="dropdown"><a href="hseq.html">HSE&amp;Q</a>
+                        <ul> 
+                            <li><a href="#"><span>-</span> Item</a></li>
+                            <li><a href="#"><span>-</span> Item</a></li>
+                            <li><a href="#"><span>-</span> Item</a>
+                            	<ul> 
+                                    <li><a href="#"><span>-</span> Item </a></li>
+                                    <li><a href="#"><span>-</span> Item </a></li>
+                                    <li><a href="#"><span>-</span> Item </a>
+                                    	<ul> 
+                                            <li><a href="#"><span>-</span> Item </a></li>
+                                            <li><a href="#"><span>-</span> Item </a></li>
+                                            <li><a href="#"><span>-</span> Item </a></li>    	
+                                        </ul>
+                                    </li>    	
+                                </ul>
+                            </li>    	
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Careers</a>
+                    	<ul> 
+                            <li><a href="blog-right-sidebar.html"><span>-</span> blog right sidebar</a></li>
+                            <li><a href="blog-left-sidebar.html"><span>-</span> blog left sidebar</a></li>
+                            <li><a href="single-right-sidebar.html"><span>-</span> single right sidebar</a></li> 
+                            <li><a href="single-left-sidebar.html"><span>-</span> single left sidebar</a></li>   	
+                        </ul>
+                    </li>
+                    <li><a href="#">Values</a></li>
+<!--
+                    <li class="dropdown"><a href="#">Pages</a>
+                        <ul> 
+                            <li><a href="column.html"><span>-</span> column page</a></li>
+                            <li><a href="tables.html"><span>-</span> table page</a></li>
+                            <li><a href="button-list.html"><span>-</span> button &amp; list page</a></li>
+                            <li><a href="icons.html"><span>-</span> glyphicons page</a></li>
+                            <li><a href="typhography.html"><span>-</span> typhography page</a></li>
+                            <li><a href="testimonials.html"><span>-</span> testimonials page</a></li>  
+                            <li><a href="pricing.html"><span>-</span> pricing page</a></li>
+                            <li><a href="faq.html"><span>-</span> faq page</a></li>
+                            <li><a href="team.html"><span>-</span> team page</a></li>
+                            <li><a href="services-layout2.html"><span>-</span> services layout alt</a></li>
+                            <li><a href="contact-layout2.html"><span>-</span> contact layout alt</a></li>
+                            <li><a href="sitemap.html"><span>-</span> sitemap page</a></li>
+                            <li><a href="fullwidth.html"><span>-</span> fullwidth page</a></li>
+                            <li><a href="404.html"><span>-</span> 404 page</a></li>                           	
+                        </ul>
+                    </li>
+-->
+                </ul>
+            </nav>
+            <!-- mainmenu end here -->
+            
+            <!-- top socials start here -->
+            <div id="top-socials">
+                <ul class="socials-list">
+                    <li><a href="#" title="linkedin+" class="tooltip"><img src="images/socials/linkedin.png" alt="" class="retina" /></a></li>
+                    
+                    <li><a href="#" title="rss" class="tooltip"><img src="images/socials/rss.png" alt="" class="retina" /></a></li>
+                </ul>
+            </div>
+            <!-- top socials end here -->
+        </div>
+    </header>
+    <!-- header end here -->
+      
+    <!-- page title start here -->
+    <section id="special-content-wrapper">
+            <img src="images/about-header.jpg">
+    </section>
+    <!-- page title end here -->
+    
+    <!-- content section start here -->
+    <section id="content-wrapper">
+    
+    	<div class="row">
+        	<div class="twelve columns">
+            	<h1>About Us</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+        	<div class="twelve columns">
+            	<h6>Our Business</h6>
+                <p>Kenson Group comprises of Kenson Production Services Limited, Kenson Operational Services Limited, Kenson School of Production technology, PF Engineering and Construction Company limited and CWD Enterprises. <br><br>
+
+Kenson, is a service contractor to Oil and Gas Companies in the Energy Sector. Our core business is providing Operations and Maintenance Services for both offshore and onshore facilities. 
+</p>
+                
+                <h6>Our Leaders</h6>
+                <p>
+
+A company’s performance is a reflection of its staff. Kenson is renowned for efficiency and productivity and is a direct result of the competency of its management team. Each member brings to the team a wealth of knowledge and experience that enhances the company’s operations. More than that, however, the KGC management team brings a passion, determination and strength of purpose, leading by example and motivating its staff, ensuring that KGC maintains its status as a leader in oil and gas field operations and production services.<br><br>
+
+Kenneth Ferguson (Founder and Chairman)
+	Prior to founding the Kenson Group of Companies, Mr. Ferguson worked for the then Amoco Trinidad Oil Company, now British Petroleum, with his last assignment being a Platform Superintendent responsible for the all offshore activities in the production of oil and gas, including overall environmental safety and protection and personnel safety, health and welfare. Mr. Ferguson qualifications include….  
+</p>
+            </div>
+        </div>
+    
+    	
+         
+    </section>
+    <!-- content section end here -->
+    
+    <!-- footer section start here -->
+    <footer>
+    	<div class="footer-logo">
+            <p>&copy;2009-2015 Kenson Group of Companies</p>
+
+        </div>
+        <div class="footer-column">
+            <ul class="inlineList">
+            	<li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Site Index</a></li>
+            </ul>
+        </div>
+
+        <div class="clear"></div>
+    </footer>
+    <!-- footer section end here -->
+    
+</div>
+
+<script>$('#noscript').remove();</script>
+</body>
+</html>
