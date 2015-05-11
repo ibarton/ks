@@ -2,142 +2,163 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-<meta charset="utf-8" />
-<meta name="format-detection" content="telephone=no" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Kenson - About Us</title>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Kenson - About Us</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //     Retina Bookmark Icon     // -->
-<!-- ////////////////////////////////// -->
-<link rel="apple-touch-icon-precomposed" href="apple-icon.png"/>
+    <!-- ////////////////////////////////// -->
+    <!-- //     Retina Bookmark Icon     // -->
+    <!-- ////////////////////////////////// -->
+    <link rel="apple-touch-icon-precomposed" href="apple-icon.png" />
 
-<!-- ////////////////////////////////// -->
-<!-- //      Stylesheets Files       // -->
-<!-- ////////////////////////////////// -->
-<link rel="stylesheet" href="css/base.css"/>
-<link rel="stylesheet" href="css/framework.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/layerslider.css"/>
-<link rel="stylesheet" href="css/media.css"/>
-<link rel="stylesheet" href="css/noscript.css" media="screen,all" id="noscript"/>
-  
-<!-- ////////////////////////////////// -->
-<!-- //     Google Webfont Files     // -->
-<!-- ////////////////////////////////// -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400"/>
+    <!-- ////////////////////////////////// -->
+    <!-- //      Stylesheets Files       // -->
+    <!-- ////////////////////////////////// -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layerslider.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/noscript.css" media="screen,all" id="noscript" />
 
-<!-- ////////////////////////////////// -->
-<!-- //        Favicon Files         // -->
-<!-- ////////////////////////////////// -->
-<link rel="shortcut icon" href="images/favicon.ico"/>
+    <!-- ////////////////////////////////// -->
+    <!-- //     Google Webfont Files     // -->
+    <!-- ////////////////////////////////// -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400" />
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="js/jquery.easing-1.3.min.js"></script>
-<script src="js/tooltip.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/tinynav.min.js"></script>
-<script src="js/jquery.fancybox.js?v=2.0.6"></script>
-<script src="js/jquery.fancybox-media.js?v=1.0.3"></script>
-<script src="js/jquery.ui.totop.min.js"></script>
-<script src="js/ddaccordion.js"></script>
-<script src="js/jquery.twitter.js"></script>
-<script src="js/jflickrfeed.min.js"></script>
-<script src="js/faq-functions.js" ></script>
-<script src="js/theme-functions.js"></script>
-<script src="js/jquery.retina.js"></script>
-<script>
-$(document).ready(function() {
-//Retina Image
-$('img.retina').retina('@2x');
-	
-//Footer Equal Height
-equalHeight($(".footer-column, .footer-logo"));
-});
+    <!-- ////////////////////////////////// -->
+    <!-- //        Favicon Files         // -->
+    <!-- ////////////////////////////////// -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
-function equalHeight(group) {
-  tallest = 0;
-  group.each(function() {
-	  thisHeight = $(this).height();
-	  if(thisHeight > tallest) {
-		  tallest = thisHeight;
-	  }
-  });
-  group.height(tallest);
-}
-</script>
+    <!-- ////////////////////////////////// -->
+    <!-- //      Javascript Files        // -->
+    <!-- ////////////////////////////////// -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/tinynav.min.js"></script>
+    <script src="js/jquery.fancybox.js?v=2.0.6"></script>
+    <script src="js/jquery.fancybox-media.js?v=1.0.3"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+    <script src="js/ddaccordion.js"></script>
+    <script src="js/jquery.twitter.js"></script>
+    <script src="js/jflickrfeed.min.js"></script>
+    <script src="js/faq-functions.js"></script>
+    <script src="js/theme-functions.js"></script>
+    <script src="js/jquery.retina.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Retina Image
+            $('img.retina').retina('@2x');
 
-<!-- IE Fix for HTML5 Tags -->
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+            //Footer Equal Height
+            equalHeight($(".footer-column, .footer-logo"));
+        });
+
+        function equalHeight(group) {
+            tallest = 0;
+            group.each(function () {
+                thisHeight = $(this).height();
+                if (thisHeight > tallest) {
+                    tallest = thisHeight;
+                }
+            });
+            group.height(tallest);
+        }
+    </script>
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
+
 <body>
 
-<div id="main-wrapper">
+    <div id="main-wrapper">
 
-	<!-- header start here -->
-	<header>
-    	<!-- logo start here -->
-    	<div id="logo">
-        	<a href="index.html"><img src="images/logo.png" alt="main-logo" class="retina"/></a>
-        </div>
-        <!-- logo end here -->
-        
-        <!-- top information start here -->
-        <div id="top-info">
+        <!-- header start here -->
+        <header>
+            <!-- logo start here -->
+            <div id="logo">
+                <a href="index.html"><img src="images/logo.png" alt="main-logo" class="retina" />
+                </a>
+            </div>
+            <!-- logo end here -->
 
-        </div>
-        <!-- top information end here -->
-        
-        <div id="mainmenu-wrapper">
-        	<!-- mainmenu start here -->
-                       <nav id="mainmenu">
-                <ul id="menu">
-                    <li class="dropdown"><a href="index.html">Home</a>
-                        <ul> 
-                            <li><a href="#"><span>-</span> Item</a></li>
-                            <li><a href="#"><span>-</span> Item</a></li>
-                            <li><a href="#"><span>-</span> Item</a></li>    	
-                        </ul>
-                    </li>
-                    <li class="selected"><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li class="dropdown"><a href="hseq.html">HSE&amp;Q</a>
-                        <ul> 
-                            <li><a href="#"><span>-</span> Item</a></li>
-                            <li><a href="#"><span>-</span> Item</a></li>
-                            <li><a href="#"><span>-</span> Item</a>
-                            	<ul> 
-                                    <li><a href="#"><span>-</span> Item </a></li>
-                                    <li><a href="#"><span>-</span> Item </a></li>
-                                    <li><a href="#"><span>-</span> Item </a>
-                                    	<ul> 
-                                            <li><a href="#"><span>-</span> Item </a></li>
-                                            <li><a href="#"><span>-</span> Item </a></li>
-                                            <li><a href="#"><span>-</span> Item </a></li>    	
-                                        </ul>
-                                    </li>    	
-                                </ul>
-                            </li>    	
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Careers</a>
-                    	<ul> 
-                            <li><a href="blog-right-sidebar.html"><span>-</span> blog right sidebar</a></li>
-                            <li><a href="blog-left-sidebar.html"><span>-</span> blog left sidebar</a></li>
-                            <li><a href="single-right-sidebar.html"><span>-</span> single right sidebar</a></li> 
-                            <li><a href="single-left-sidebar.html"><span>-</span> single left sidebar</a></li>   	
-                        </ul>
-                    </li>
-                    <li><a href="#">Values</a></li>
-<!--
+            <!-- top information start here -->
+            <div id="top-info">
+
+            </div>
+            <!-- top information end here -->
+
+            <div id="mainmenu-wrapper">
+                <!-- mainmenu start here -->
+                <nav id="mainmenu">
+                    <ul id="menu">
+                        <li class="dropdown"><a href="index.html">Home</a>
+                            <ul>
+                                <li><a href="#"><span>-</span> Item</a>
+                                </li>
+                                <li><a href="#"><span>-</span> Item</a>
+                                </li>
+                                <li><a href="#"><span>-</span> Item</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="selected"><a href="about.html">About Us</a>
+                        </li>
+                        <li><a href="services.html">Services</a>
+                        </li>
+                        <li class="dropdown"><a href="hseq.html">HSE&amp;Q</a>
+                            <ul>
+                                <li><a href="#"><span>-</span> Item</a>
+                                </li>
+                                <li><a href="#"><span>-</span> Item</a>
+                                </li>
+                                <li><a href="#"><span>-</span> Item</a>
+                                    <ul>
+                                        <li><a href="#"><span>-</span> Item </a>
+                                        </li>
+                                        <li><a href="#"><span>-</span> Item </a>
+                                        </li>
+                                        <li><a href="#"><span>-</span> Item </a>
+                                            <ul>
+                                                <li><a href="#"><span>-</span> Item </a>
+                                                </li>
+                                                <li><a href="#"><span>-</span> Item </a>
+                                                </li>
+                                                <li><a href="#"><span>-</span> Item </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Careers</a>
+                            <ul>
+                                <li><a href="blog-right-sidebar.html"><span>-</span> blog right sidebar</a>
+                                </li>
+                                <li><a href="blog-left-sidebar.html"><span>-</span> blog left sidebar</a>
+                                </li>
+                                <li><a href="single-right-sidebar.html"><span>-</span> single right sidebar</a>
+                                </li>
+                                <li><a href="single-left-sidebar.html"><span>-</span> single left sidebar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Values</a>
+                        </li>
+                        <!--
                     <li class="dropdown"><a href="#">Pages</a>
                         <ul> 
                             <li><a href="column.html"><span>-</span> column page</a></li>
@@ -157,82 +178,154 @@ function equalHeight(group) {
                         </ul>
                     </li>
 -->
-                </ul>
-            </nav>
-            <!-- mainmenu end here -->
-            
-            <!-- top socials start here -->
-            <div id="top-socials">
-                <ul class="socials-list">
-                    <li><a href="#" title="linkedin+" class="tooltip"><img src="images/socials/linkedin.png" alt="" class="retina" /></a></li>
-                    
-                    <li><a href="#" title="rss" class="tooltip"><img src="images/socials/rss.png" alt="" class="retina" /></a></li>
-                </ul>
-            </div>
-            <!-- top socials end here -->
-        </div>
-    </header>
-    <!-- header end here -->
-      
-    <!-- page title start here -->
-    <section id="special-content-wrapper">
-            <img src="images/about-header.jpg">
-    </section>
-    <!-- page title end here -->
-    
-    <!-- content section start here -->
-    <section id="content-wrapper">
-    
-    	<div class="row">
-        	<div class="twelve columns">
-            	<h1>About Us</h1>
-            </div>
-        </div>
-        
-        <div class="row">
-        	<div class="twelve columns">
-            	<h6>Our Business</h6>
-                <p>Kenson Group comprises of Kenson Production Services Limited, Kenson Operational Services Limited, Kenson School of Production technology, PF Engineering and Construction Company limited and CWD Enterprises. <br><br>
+                    </ul>
+                </nav>
+                <!-- mainmenu end here -->
 
-Kenson, is a service contractor to Oil and Gas Companies in the Energy Sector. Our core business is providing Operations and Maintenance Services for both offshore and onshore facilities. 
+                <!-- top socials start here -->
+                <div id="top-socials">
+                    <ul class="socials-list">
+                        <li>
+                            <a href="#" title="linkedin+" class="tooltip"><img src="images/socials/linkedin.png" alt="" class="retina" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" title="rss" class="tooltip"><img src="images/socials/rss.png" alt="" class="retina" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- top socials end here -->
+            </div>
+        </header>
+        <!-- header end here -->
+
+        <!-- page title start here -->
+        <section id="special-content-wrapper">
+            <img src="images/about-header.jpg">
+        </section>
+        <!-- page title end here -->
+
+        <!-- content section start here -->
+        <section id="content-wrapper">
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <h5>Our Business</h5>
+                    <p>Kenson Group comprises of Kenson Production Services Limited, Kenson Operational Services Limited, Kenson School of Production technology, PF Engineering and Construction Company limited and CWD Enterprises.
+                        <br>
+                        <br> Kenson, is a service contractor to Oil and Gas Companies in the Energy Sector. Our core business is providing Operations and Maintenance Services for both offshore and onshore facilities.
+                    </p>
+
+                    <h5>Our Leaders</h5>
+                    <p>
+
+                        A company’s performance is a reflection of its staff. Kenson is renowned for efficiency and productivity and is a direct result of the competency of its management team. Each member brings to the team a wealth of knowledge and experience that enhances the company’s operations. More than that, however, the KGC management team brings a passion, determination and strength of purpose, leading by example and motivating its staff, ensuring that KGC maintains its status as a leader in oil and gas field operations and production services.
+                        <br>
+                        <br>
+
+                        <h6>Kenneth Ferguson (Founder and Chairman)</h6> Prior to founding the Kenson Group of Companies, Mr. Ferguson worked for the then Amoco Trinidad Oil Company, now British Petroleum, with his last assignment being a Platform Superintendent responsible for the all offshore activities in the production of oil and gas, including overall environmental safety and protection and personnel safety, health and welfare. Mr. Ferguson qualifications include….
+                    </p>
+
+                    <h6>Roger Mike (CEO)</h6>
+
+                    <h6>Renee Ferguson (COO)</h6>
+
+                    <p>Kenson is built on a solid foundation of experience and training. That tradition has continued and today our emphasis on training and continuous learning is based on our belief that it is the primary building block for success and sustainability of each company and by extension, the entire group.
+                    </p>
+
+                    <h5>Our Vision</h5>
+                    <p>To be acknowledged nationally as the leading service provider in the Energy Sector and to propogate our reputation for extraordinary services internationally.
 </p>
                 
-                <h6>Our Leaders</h6>
-                <p>
-
-A company’s performance is a reflection of its staff. Kenson is renowned for efficiency and productivity and is a direct result of the competency of its management team. Each member brings to the team a wealth of knowledge and experience that enhances the company’s operations. More than that, however, the KGC management team brings a passion, determination and strength of purpose, leading by example and motivating its staff, ensuring that KGC maintains its status as a leader in oil and gas field operations and production services.<br><br>
-
-Kenneth Ferguson (Founder and Chairman)
-	Prior to founding the Kenson Group of Companies, Mr. Ferguson worked for the then Amoco Trinidad Oil Company, now British Petroleum, with his last assignment being a Platform Superintendent responsible for the all offshore activities in the production of oil and gas, including overall environmental safety and protection and personnel safety, health and welfare. Mr. Ferguson qualifications include….  
+                <h5>Our Strategy</h5>
+                <p>To assist our Clients to exceed their goals and objectives through the provision of extraordinary services, in a manner that would ensure profits to our shareholders while seeking the welfare of our employees and the environs through responsible environmental and safety management.
 </p>
+                
+                <h5>What We Do</h5>
+                <p>At Kenson, we offer a variety of production and operational services to the oil and gas sector in Trinidad and Tobago. With over four hundred employees, we are able to <br/>
+
+Our over 400 hundred employees provide Operations and Maintenance services on off-shore platforms and at onshore facilities and drilling support services for our clients that have led to the development of a deep and mutually beneficial business relationship with our clients.
+</p>
+                <p>Our services include:</p>
+                <ul>
+                    <li>Production Services</li>
+                    <li>Equipment, Reliability & Maintenance Services (ERM)</li>
+                    <li>Valve Services: Repairs and Certification</li>
+                    <li>Bolt Torquing Services</li>
+                    <li>Training and Development</li>
+                    <li>Transport Services</li>
+                </ul>
+                
+                <p>Core Values</p>
+                <ol>
+                    <li><p><strong>Health, Safety &amp; The Environment:</strong> Health, Safety and the Environmental management control are the key pillars upon which Kenson has been successfully sustained. It remains our corporate commitment from a recognition and acceptance of our legislative duty to ensure that we do not hurt people. In short our health, safety and environmental performance is the key measure of our business success. This is fully communicated throughout the organization and our employees are expected to continuously monitor and ensure that unsafe acts are not encouraged.
+</p></li>
+                    <li><p><strong>Teamwork:</strong> We value and appreciate our employees for their contribution and foster mutual respect at all levels of the organization. We ensure that compensation and benefits are fair and competitive, that personal growth and development is encouraged, and that our employees are trained and competent. Empowerment and feedback is encouraged as this would foster high levels of employee
+</p></li>
+                    <li><p><strong>Integrity:</strong> We demonstrate integrity in everything we do and encourage every member of our organization to honourably fulfill all obligations and commitments to stakeholders/coworkers of the organization. As we strive for excellence, we will conduct our business under the corner stones of honesty, responsibility, respect, good ethics and trust.
+</p></li>
+                    <li><p><strong>Customer Fixation:</strong> Our decisions are based on fostering and building strong, long term relationships with out customers. We achieve this by anticipating and responding to our customers' demands in a timely manner, providing reliable services at competitive prices as we focus on innovative solutions to our clients' problems.
+</p></li>
+                    <li><p><strong>Sustainability:</strong> We strive to retain our position as Market leader in the industry by constantly looking at ways to reduce cost, ways to improve efficiency and ways to grow our business via expansion and diversification. Such a framework would ensure stability, continuity and longevity of our business enterprise.
+</p></li>
+                </ol>
+                
+                <h5>Our History</h5>
+                <p>Kenson is a Service Contractor to Oil and Gas Companies in the Energy Sector in Trinidad and Tobago providing a full range of managed Operations and Maintenance services and technical support services to our clients Offshore Production Platforms and Onshore Facilities. 
+</p>
+                <p>Kenson has its genesis in the vision of its founder and Chairman, Mr. Kenneth Ferguson, who foresaw a need for the provision of specialized services done through very skilled and experienced labour for Offshore Production Platforms at a time when no other company in Trinidad & Tobago was providing such services.  As any astute business man would do, he not only identified the needs but also assessed the market and then came up with a strategy to meet those needs using local talent.
+</p>
+                <p>Thus in 1994, the first company, Kenson Production Services Limited (KPSL) was born employing a mere 10 employees, all of whom, under the direction of Kenneth Ferguson, provided highly skilled services to the client. 
+</p>
+                <p>As demand for Kenson's services increased, a new company, Kenson Operational Services Limited (KOSL) was established in January 2000. By May 2000, PF Engineering & Construction Company Limited was formed and in 2014, Kenson acquired the Paper Company CWD Enterprises Limited as part of it's vision for growth and Diversity. 
+</p>
+                <p>The Kenson group of company's robust history has Thus creating the Kenson Group Of Companies which can  boast of employing well over 350 employees.
+</p>
+                <p>The company has been able to stand the test of time due to diligent human resources management, strong financial and accounting practices and hard work, to build a strong, reputable, local brand that continues to satisfy the standards set by our international clients and employing over four hundred employees.
+</p>
+
+                </div>
             </div>
-        </div>
-    
-    	
-         
-    </section>
-    <!-- content section end here -->
-    
-    <!-- footer section start here -->
-    <footer>
-    	<div class="footer-logo">
-            <p>&copy;2009-2015 Kenson Group of Companies</p>
 
-        </div>
-        <div class="footer-column">
-            <ul class="inlineList">
-            	<li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Site Index</a></li>
-            </ul>
-        </div>
 
-        <div class="clear"></div>
-    </footer>
-    <!-- footer section end here -->
-    
-</div>
 
-<script>$('#noscript').remove();</script>
+        </section>
+        <!-- content section end here -->
+
+        <!-- footer section start here -->
+        <footer>
+            <div class="footer-logo">
+                <p>&copy;2009-2015 Kenson Group of Companies</p>
+
+            </div>
+            <div class="footer-column">
+                <ul class="inlineList">
+                    <li><a href="#">Privacy Policy</a>
+                    </li>
+                    <li><a href="#">Terms of Use</a>
+                    </li>
+                    <li><a href="#">Site Index</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+        </footer>
+        <!-- footer section end here -->
+
+    </div>
+
+    <script>
+        $('#noscript').remove();
+    </script>
 </body>
+
 </html>
